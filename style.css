@@ -1,0 +1,128 @@
+#main{
+    max-width: 100px;
+    margin: 0 auto;
+}
+#tribute-info{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    background-color: #1d1d1d;
+    color: #fff;
+    
+}
+#nav1{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: -24px;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    filter: brightness(80%);
+    /* background-color: brown; */
+}
+#nav1:hover{
+    filter: brightness(100%);
+}
+#tribute-link{
+    position: absolute;
+    height: 48px;
+    width: 17px;
+    background-size: 17px 48px;
+    background-repeat: no-repeat ;
+    background-image: url('img/apple.svg');
+    /* background-color: chartreuse; */  
+}
+span{
+    position: absolute;
+    /* background-color: cornflowerblue; */
+    margin: 50%;
+    margin-left: -100%;
+    clip-path: inset(0px 0px 99.9% 99.9%)
+}
+#title{
+    position:absolute;
+    top:48px;
+    left: 0;
+    width: 100%;
+    height: 53px;
+    /* background-color: aqua; */
+    border-bottom: solid 1px rgb(204, 204, 206);
+}
+#title1{
+    position: absolute;
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    top: 25%;
+    left: 5%;
+}
+#title1 a{
+    color: #000;
+    text-decoration: none;
+}
+#title2{
+    position: absolute;
+    right: 5%;
+    font-size: 12px;
+    background: #0071e3;
+    text-align: center;
+    border-radius: 980px;
+    padding:4px 11px;
+    line-height: 1.3;
+    min-width: 23px;
+    top: 25%;
+    filter: brightness(100%);
+}
+#title2:hover{
+    filter: brightness(120%);
+}
+#title2 a{
+    color: #fff;
+    text-decoration: none;
+}
+#img-div{
+    position: absolute;
+    top: 102px;
+    left: 0;
+    width: 100%;
+    height:100%;
+    /* overflow: hidden; */
+}
+#img-caption{
+    position: absolute;
+    left:0;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+#img-caption1{
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 130px;
+    margin-top: 0;
+    color: #1d1d1d;
+}
+#img-caption2{
+    position: relative;
+    font-size: 88px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 0;
+    color: #1d1d1d;
+}
+#image{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    width: 1998px;
+	height: 340px;
+	max-width: 100%;
+	max-height: 100%;
+    margin-left: 10%;
+    /* margin-left: calc(50%-500px); */
+}
