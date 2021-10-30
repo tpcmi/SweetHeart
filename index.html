@@ -12,8 +12,19 @@
             <div id="title"></div>
             <div id="description"></div>
             <div id="survey-form">
-                <input type="text" id="name" required>
-
+                <label id="name-label">姓名</label>
+                <input type="text" id="name" placeholder="输入您的姓名" required>
+                <label id="email-label">邮箱</label>
+                <input type="email" id="email" placeholder="输入您的邮箱" required>
+                <label id="number-label">年龄(非必填)</label>
+                <input type="number" id="number" min="1" max="99" placeholder="输入您的年龄">
+                <p>您现在的角色是？</p>
+                <select id="dropdown"required>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                
             </div>
         </div>
     </body>
