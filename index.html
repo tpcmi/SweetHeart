@@ -9,22 +9,47 @@
     </head>
     <body>
         <div>
-            <div id="title"></div>
-            <div id="description"></div>
+            <h1 id="title">freeCodeCamp 调查表格</h1>
+            <p id="description">感谢您抽出宝贵时间帮助我们改进平台</p>
             <div id="survey-form">
-                <label id="name-label">姓名</label>
-                <input type="text" id="name" placeholder="输入您的姓名" required>
-                <label id="email-label">邮箱</label>
-                <input type="email" id="email" placeholder="输入您的邮箱" required>
-                <label id="number-label">年龄(非必填)</label>
-                <input type="number" id="number" min="1" max="99" placeholder="输入您的年龄">
+                <label id="name-label" for="name">姓名</label><input type="text" id="name" placeholder="输入您的姓名" required/>
+                <label id="email-label" for="email">邮箱</label><input type="email" id="email" placeholder="输入您的邮箱" required />
+                <label id="number-label" for="number">年龄(非必填)</label><input type="number" id="number" min="1" max="99" placeholder="输入您的年龄"/>
                 <p>您现在的角色是？</p>
                 <select id="dropdown"required>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
+                    <option>学生</option>
+                    <option>全职</option>
+                    <option>其它</option>
                 </select>
-                
+                <p>你愿意向你的朋友推荐freeCodeCamp吗？</p>
+                <label for="">
+                    <input id="" type="radio" name="recommend">一定会
+                </label>
+                <label for="">
+                    <input id="" type="radio" name="recommend">可能会
+                </label>
+                <label for="">
+                    <input id="" type="radio" name="recommend">不会
+                </label>
+                <p>你觉得哪些地方还有待提高？（可多选）</p>
+                <label for="">
+                    <input id="" type="checkbox" name="improve">前端项目
+                </label>
+                <label for="">
+                    <input id="" type="checkbox" name="improve">后端项目
+                </label>
+                <label for="">
+                    <input id="" type="checkbox" name="improve">开源社区
+                </label>
+                <label for="">
+                    <input id="" type="checkbox" name="improve">视频
+                </label>
+                <label for="">
+                    <input id="" type="checkbox" name="improve">Wiki
+                </label>
+                <p>还有什么意见或建议吗？</p>
+                <textarea id="suggestion" placeholder="此处输入你的想法..."></textarea>
+                <button id="submit">提交</button>
             </div>
         </div>
     </body>
