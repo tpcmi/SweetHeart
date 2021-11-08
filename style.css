@@ -40,20 +40,23 @@ body::before {
   background-position: center;
 }
 
-#container{
+#container {
   width: 100%;
   margin: 3.125rem auto 0 auto;
 }
-@media(min-width:576px){
-  #container{
+
+@media(min-width:576px) {
+  #container {
     max-width: 540px;
   }
 }
+
 @media (min-width:768px) {
-  #container{
+  #container {
     max-width: 720px;
   }
 }
+
 #title,
 #description {
   text-align: center;
@@ -61,8 +64,22 @@ body::before {
   margin-bottom: 0.5rem;
 }
 
-#title{
+#title {
   font-weight: 200;
   font-style: italic;
-  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  ;
+}
+
+#survey-form{
+  background-color: var(--color-darkblue-alpha);
+
+}
+
+label{
+  display: flex;
+}
+.form-group{
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
 }
