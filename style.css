@@ -71,15 +71,66 @@ body::before {
   ;
 }
 
-#survey-form{
+#survey-form {
   background-color: var(--color-darkblue-alpha);
-
+  padding: 20px 20px;
 }
 
-label{
+/* label {
   display: flex;
+} */
+
+p,
+label,
+option {
+  font-size: 1.1rem;
 }
-.form-group{
+
+
+
+.form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
+}
+
+#name,
+#email,
+#number {
+  width: 100%;
+  height: 40px;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+#dropdown{
+  width:100%;
+  height: 40px;
+  font-size: 1.1rem;
+  margin-top: -5px;
+}
+
+label,
+input{
+  vertical-align: middle;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
+button{
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: var(--color-green);
+  border: none;
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 1.1rem;
 }
